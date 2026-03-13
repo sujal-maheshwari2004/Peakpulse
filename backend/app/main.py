@@ -18,7 +18,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins     = [settings.CORS_ORIGIN, "https://peakpulse-pvzx.onrender.com"],
+    allow_origins     = [settings.CORS_ORIGIN, "https://peakpulse-mw5z.onrender.com"],
     allow_credentials = True,
     allow_methods     = ["*"],
     allow_headers     = ["*"],
